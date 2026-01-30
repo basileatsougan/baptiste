@@ -23,13 +23,13 @@ export default function Footer() {
         </div>
 
         <div className="text-white/60 text-sm md:text-base flex flex-col md:flex-row gap-4 md:gap-8 items-center">
-          <p>Eglise Baptiste a Kohe | vers zossime</p>
+          <p>Eglise Baptiste à Kohé | vers zossimé</p>
           <div className="hidden md:block w-1.5 h-1.5 bg-brand-orange rounded-full" />
-          <p>+228 90 00 00 00</p>
+          <p>+228 97 46 00 28</p>
         </div>
         
         <p className="text-white/30 text-xs mt-8">
-          © {new Date().getFullYear()} l'église Baptiste de Kohe. Tous droits réservés.
+          © {new Date().getFullYear()} l'église Baptiste de Kohé. Tous droits réservés.
         </p>
       </div>
     </footer>

@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function MapSection() {
   const placeName = "Première Église Baptiste du Togo - Kohe";
   const address = "Kohe, Togo";
-  const phoneNumber = "+228 XX XX XX XX"; // Replace with actual phone number
+  const phoneNumber = "+228 97 46 00 28";
   const googleMapsUrl = "https://www.google.com/maps/place/Première+Église+Baptiste+du+Togo+-+Doulassame";
   const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(placeName)}`;
   
@@ -35,12 +35,12 @@ export default function MapSection() {
   };
 
   return (
-    <section className="bg-[#FAF9F6] py-24 px-6">
-      <div className="mx-auto max-w-7xl text-center bg-white p-6 border border-black">
-        <h2 className="text-brand-orange text-2xl md:text-5xl font-semibold mb-4 leading-relaxed">
+    <section className="bg-[#FAF9F6] py-24 px-4">
+      <div className="mx-auto max-w-7xl text-center bg-white py-4 px-4  border border-black">
+        <h2 className="text-brand-orange text-2xl md:text-4xl font-semibold mb-4 leading-relaxed">
           Notre Localisation
         </h2>
-        <p className="text-black text-base md:text-2xl mb-12">
+        <p className="text-black text-base md:text-xl mb-12">
           Trouvez-nous facilement grâce à cette carte interactive
         </p>
         
